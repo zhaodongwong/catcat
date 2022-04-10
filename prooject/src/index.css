@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+XiaoWei&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  @apply bg-gradient-to-br from-sky-400 to-pink-300
+}
+
+*{
+  font-family: ZCOOL XiaoWei;
+}
+
+img{
+  width:563px;
+  height:750px;
+  border-radius:23px;
+  transition:0.5s;
+}
+
+img:hover{
+  width:600px;
+  height:800px;
+}
